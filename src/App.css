@@ -1,0 +1,14 @@
+.App {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+  padding: 20px; /* Add desired padding */
+  /* Add any other styling for the content area here */
+}
+
+/* Add styles for your Navbar component as needed */
+body{
+  background-color: rgb(235, 228, 245);
+}

@@ -1,0 +1,29 @@
+table{
+   height: 80px; 
+   width: 100%;
+}
+td{
+    background-color: #f9effc;
+    padding: 30px;
+    border-radius: 5%;
+    max-width: 25%;
+   
+}
+.bardiv{
+    display:flex;
+    
+}
+.bar{
+    background-color: #f9effc;
+    flex: 7;
+    margin:10px 10px 10px 0px;
+    padding: 20px;
+    border-radius: 5%;
+}
+.pie{
+    background-color: #f9effc;
+    margin: 10px 0px 10px 10px;
+    flex: 3;
+    padding: 20px;
+    border-radius: 10%;
+}

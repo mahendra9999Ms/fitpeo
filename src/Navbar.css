@@ -1,0 +1,62 @@
+.navbar {
+    width: 15%;
+    height: 100vh; /* 100% of viewport height */
+    background-color: #14015e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20%; /* Remove default margin to avoid unexpected spacing */
+  }
+  
+  li {
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: flex;
+    align-items: center; /* Center vertically */
+  }
+  
+  i {
+    margin-right: 10px;
+  }
+  .selected-link {
+    background-color: #222;
+    padding: 20px;
+    font-weight: bold;
+  }
+  .spacer {
+    flex-grow: 1;
+  }
+  
+  .login-link {
+    cursor: pointer;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 20px; /* Add margin to create space above the link */
+  }
+  
+  .login-dropdown {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: none;
+  }
+  
+  .login-link:hover .login-dropdown {
+    display: block;
+  }
+  /* Add hover styles for links */
+.navbar ul li:hover {
+    background-color: #222; /* Background color when hovered */
+    color: white; /* Text color when hovered */
+    cursor: pointer; /* Change cursor to a pointer on hover */
+  }
+  
